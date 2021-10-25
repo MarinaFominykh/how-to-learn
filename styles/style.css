@@ -211,7 +211,6 @@ height: 877px;
 z-index: -1;
 position: absolute;
 right: -210px;
-z-index: -1;
 }
 
 .section__title_theme_dark {
@@ -228,10 +227,6 @@ color: white;
 .table_theme_dark {
 margin-bottom: 90px;
 
-}
-
-.section__title_theme_dark {
-margin: 90px auto 0;
 }
 
 .table__cell_theme_dark {
@@ -291,7 +286,6 @@ margin-bottom: 16px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-line-height: 30px;
 line-height: 30px;
 font-weight: normal;
 margin: 0 0 16px 0;
