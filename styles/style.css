@@ -307,6 +307,7 @@
 .footer__list {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .footer__social-icon {
@@ -317,8 +318,4 @@
 
 .footer__social-name {
     margin: 0 0 0 10px;
-}
-
-.footer__list {
-    text-decoration: none;
 }
