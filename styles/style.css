@@ -12,22 +12,25 @@
     background: #f2f2f2;
     position: relative;
     display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 183px;
 }
 
 .logo_place_header {
     position: absolute;
-    width: 183px;
-    height: 32px;
     top: 30px;
     left: 64px;
+    height: 32px;
     z-index: 3;
 }
 
 .header__title {
-    width: 730px;
+    max-width: 730px;
     z-index: 3;
-    margin: auto;
-    margin-left: 64px;
+    margin: 0 0 0 64px;
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
@@ -103,8 +106,12 @@
     font-weight: bold;
 }
 
-.two-columns__paragraph_indent {
-    margin: 30px 0;
+.two-columns__paragraph {
+    margin: 0 0 30px 0;
+}
+
+.two-columns__paragraph:last-child {
+    margin: 0
 }
 
 .section-title {
@@ -155,7 +162,7 @@
 }
 
 .feynman {
-    height: 890px;
+    min-height: 890px;
     background-color: #f2f2f2;
     background-image: url(../images/feynman.png);
     background-size: 867px 637px;
@@ -165,7 +172,7 @@
 }
 
 .feynman__tittle {
-    width: 648px;
+    max-width: 648px;
     margin: 0 auto 0;
     font-size: 120px;
     line-height: 1.15;
@@ -206,6 +213,8 @@
     z-index: -1;
     position: absolute;
     right: -210px;
+    background-image: url(../images/kaufman-triangle.svg);
+    background-size: contain;
 }
 
 .section-title_theme_dark {
@@ -230,21 +239,25 @@
 
 .footer {
     background-color: #1f1f1f;
-    color: white;
     min-height: 350px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 60px;
 }
 
-.footer__size-column {
+.footer__columns {
+    background-color: #1f1f1f;
+    color: white;
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 60px auto 40px;
+    margin: 0 auto 40px;
+}
+
+.footer__column {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo_place_footer {
-    width: 183px;
     height: 35px;
 }
 
@@ -307,9 +320,5 @@
 .footer__social-icon {
     width: 16px;
     height: 16px;
-    margin: auto;
-}
-
-.footer__social-name {
-    margin: 0 0 0 10px;
+    margin: auto 10px auto 0;
 }
