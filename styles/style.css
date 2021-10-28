@@ -242,7 +242,7 @@
     min-height: 350px;
     padding-top: 60px;
     padding-bottom: 40px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .footer__columns {
