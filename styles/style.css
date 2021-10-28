@@ -241,6 +241,8 @@
     background-color: #1f1f1f;
     min-height: 350px;
     padding-top: 60px;
+    padding-bottom: 40px;
+    box-sizing: border-box
 }
 
 .footer__columns {
@@ -249,7 +251,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 0 auto 40px;
+    margin: auto;
 }
 
 .footer__column {
