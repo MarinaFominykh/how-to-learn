@@ -4,4 +4,6 @@
     flex-wrap: wrap;
     column-gap: 100px;
     margin: auto;
+    list-style: none;
+    padding: 0;
 }
