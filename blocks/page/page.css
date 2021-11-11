@@ -5,10 +5,10 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.link_transform {
+.link-transform {
     transition: .5s;
 }
 
-.link_transform:hover {
+.link-transform:hover {
     opacity: .5;
 }
