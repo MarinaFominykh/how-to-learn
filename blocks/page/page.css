@@ -4,11 +4,3 @@
     margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.link-transform {
-    transition: .5s;
-}
-
-.link-transform:hover {
-    opacity: .5;
-}
